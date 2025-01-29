@@ -1,3 +1,8 @@
+## Autor
+- Nombre: Yoshelyn Kristal Moreno Almeida  
+- Email: a23311035@uthermosillo.edu.mx
+- GitHub: [@KristalMoreno](https://github.com/KristalMoreno)
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
