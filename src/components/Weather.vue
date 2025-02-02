@@ -3,11 +3,11 @@
   </template>
   
   <script setup> 
-  import { useWeadher } from '@/compusables/useWeather'; // Asegúrate que la ruta es correcta
+  import { useWeadher } from '@/compusables/useWeather'; 
   import { onMounted } from 'vue';
-  import { useWeatherStore } from "@/stores/stores/weatherStore"; // ✅ Nombre correcto
+  import { useWeatherStore } from "@/stores/stores/weatherStore"; 
   
-  const weatherStore = useWeatherStore(); // ✅ Corregido el nombre
+  const weatherStore = useWeatherStore(); 
   
   onMounted(() => {
       useWeadher();

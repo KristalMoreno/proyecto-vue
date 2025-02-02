@@ -3,11 +3,11 @@ import { ref } from "vue";
 import { getTemperatura } from "@/helpers/getWeather"; 
 
 export const useWeatherStore = defineStore('weather', () => {
-    const temperatura = ref(0); // ✅ Hacerlo reactivo con ref()
-    const setTemperatura = async () => { // Llamar la API
+    const temperatura = ref(0); 
+    const setTemperatura = async () => { 
     try {
         const temp = await getTemperatura();
-        temperatura.value = temp; // Asignar la temperatura recibida
+        temperatura.value = temp; 
         } 
         catch (error) {
         console.error("Error obteniendo la temperatura:", error);
